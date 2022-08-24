@@ -11,27 +11,35 @@
 <body>
   <div id="container">
     <div id="content">
-      <div class="content-top">
-        <header>
-          <h1>Metric/Imperial Unit Conversion</h1>
-        </header>
-        <div class="content-top-input">
-          <input type="text" name="number" id="js-input-number">
-          <button id="js-input-btn">Convert</button>
+      <div class="content-top flex-column">
+        <div class="content-top-container ">
+          <header>
+            <h1>Metric/Imperial Unit Conversion</h1>
+          </header>
+          <div class="content-top-input flex-column">
+            <input type="text" name="number" id="js-input-number">
+            <button id="js-input-btn">Convert</button>
+          </div>
         </div>
       </div>
-      <div class="content-bottom">
+      <div class="content-bottom flex-column">
         <section class="boxes">
-          <h2>Length (Meter/Feet)</h2>
-          <p id="js-length"></p>
+          <div class="boxes-content">
+            <h2>Length (Meter/Feet)</h2>
+            <p id="js-length"></p>
+          </div>
         </section>
         <section class="boxes">
-          <h2>Volumes (Liters/Gallons)</h2>
-          <p id="js-volumes"></p>
+          <div class="boxes-content">
+            <h2>Volumes (Liters/Gallons)</h2>
+            <p id="js-volumes"></p>
+          </div>
         </section>
         <section class="boxes">
-          <h2>Mass (Kilograms/Pounds)</h2>
-          <p id="js-mass"></p>
+          <div class="boxes-content">
+            <h2>Mass (Kilograms/Pounds)</h2>
+            <p id="js-mass"></p>
+          </div>
         </section>
       </div>
     </div>
