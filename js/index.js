@@ -2,21 +2,17 @@
 //Round the number into 3 decimal places
 
 const inputNumber = document.getElementById('js-input-number')
-const inputButton = document.getElementById('js-input-btn')
 const lengthParagraph = document.getElementById('js-length')
 const volumesParagraph = document.getElementById('js-volumes')
 const massParagraph = document.getElementById('js-mass')
 
-// rendre/call converter function when click
-inputButton.addEventListener('click', function () {
-  METERtoFEET(inputNumber.value)
-  LITERtoGALLON(inputNumber.value)
-  KILOGRAMtoPOUND(inputNumber.value)  
-})
 
 // Empty input field when focus
-inputNumber.addEventListener('focus', function() {
-    inputNumber.value = ' '
+inputNumber.addEventListener('keyup', function() {
+  //inputNumber.value = ' '
+   METERtoFEET(inputNumber.value)
+   LITERtoGALLON(inputNumber.value)
+   KILOGRAMtoPOUND(inputNumber.value)  
 })
 
 /*
