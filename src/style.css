@@ -1,93 +1,92 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;900&display=swap');
 
-*{
+* {
   box-sizing: border-box;
 }
 
-body{
+body {
   padding: 0;
   margin: 0;
   font-family: 'Inter', sans-serif;
   font-weight: 300;
-  font-size: .875rem;
+  font-size: 0.875rem;
   color: #ffffff;
   background-color: #eeeeee;
 }
 
 /* ====CONTAINER=== */
 
-#container{
+#container {
   margin: 3em auto;
   padding: 2.2em 1.6em;
   max-width: 50em;
 }
 
-#content{
-  background-color: #1F2937;
+#content {
+  background-color: #1f2937;
   text-align: center;
 }
 
-.flex-column{
+.flex-column {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.content-top{
-  background-color: #6943FF;
+.content-top {
+  background-color: #6943ff;
 }
 
-.content-top-container{
+.content-top-container {
   width: 90%;
   padding: 2.125rem 0;
   padding-bottom: 1rem;
 }
 
-h1{
+h1 {
   font-size: 1.75rem;
   font-weight: 900;
   margin-bottom: 1.875rem;
   margin-top: 0;
 }
 
-h2{
+h2 {
   font-size: 1.25rem;
   font-weight: 400;
-  color: #CCC1FF;
-  margin-bottom: .563rem;
+  color: #ccc1ff;
+  margin-bottom: 0.563rem;
   margin-top: 0;
 }
 
-
-.content-top-input #js-input-number{
+.content-top-input #js-input-number {
   font-size: 3.625rem;
   font-weight: 900;
   color: #ffffff;
   width: 7.3125rem;
   height: 5.1875rem;
   background-color: transparent;
-  border: 1px solid #CCC1FF;
+  border: 1px solid #ccc1ff;
   border-radius: 4px;
   text-align: center;
   margin-bottom: 1.563rem;
 }
 
-.content-bottom{
+.content-bottom {
   padding: 2.25rem 1.563rem;
 }
 
-.boxes{
+.boxes {
   width: 95%;
   height: 6.75rem;
   background-color: #273549;
   padding-top: 1.94rem;
   padding-bottom: 1.5rem;
-} 
-
-.boxes-content{
-  padding: 0 .10rem;
 }
 
-.boxes:not(:last-of-type){
+.boxes-content {
+  padding: 0 0.1rem;
+}
+
+.boxes:not(:last-of-type) {
   margin-bottom: 1.44rem;
 }

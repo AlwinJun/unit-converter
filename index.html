@@ -1,50 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="stylesheet" href="css/index.css">
-  <title>Unit Converter</title>
-</head>
-<body>
-  <div id="container">
-    <div id="content">
-      <div class="content-top flex-column">
-        <div class="content-top-container ">
-          <header>
-            <h1>Metric/Imperial Unit Converter</h1>
-          </header>
-          <div class="content-top-input flex-column">
-            <input type="text" name="number" id="js-input-number">
+    <link rel="icon" type="image/svg+xml" href="/typescript.svg" />
+
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Unit Converter</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="content">
+        <div class="content-top flex-column">
+          <div class="content-top-container">
+            <header>
+              <h1>Metric/Imperial Unit Converter</h1>
+            </header>
+            <div class="content-top-input flex-column">
+              <input type="text" name="number" id="js-input-number" />
+            </div>
           </div>
         </div>
-      </div>
-      <div class="content-bottom flex-column">
-        <section class="boxes">
-          <div class="boxes-content">
-            <h2>Length (Meter/Feet)</h2>
-            <p id="js-length"></p>
-          </div>
-        </section>
-        <section class="boxes">
-          <div class="boxes-content">
-            <h2>Volumes (Liters/Gallons)</h2>
-            <p id="js-volumes"></p>
-          </div>
-        </section>
-        <section class="boxes">
-          <div class="boxes-content">
-            <h2>Mass (Kilograms/Pounds)</h2>
-            <p id="js-mass"></p>
-          </div>
-        </section>
+        <div class="content-bottom flex-column">
+          <section class="boxes">
+            <div class="boxes-content">
+              <h2>Length (Meter/Feet)</h2>
+              <p id="js-length"></p>
+            </div>
+          </section>
+          <section class="boxes">
+            <div class="boxes-content">
+              <h2>Volumes (Liters/Gallons)</h2>
+              <p id="js-volumes"></p>
+            </div>
+          </section>
+          <section class="boxes">
+            <div class="boxes-content">
+              <h2>Mass (Kilograms/Pounds)</h2>
+              <p id="js-mass"></p>
+            </div>
+          </section>
+        </div>
       </div>
     </div>
-   
-  </div>
-
-  <script src="js/index.js"></script>
-</body>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
 </html>
+
